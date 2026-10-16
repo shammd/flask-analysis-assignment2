@@ -1,0 +1,25 @@
+{
+  "label": "flask-2.2.5_round2",
+  "started_at": "2026-10-14T11:49:29",
+  "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "python_executable": "D:\\ShoolStuff\\Software Arch\\flask-perf\\venvs\\flask-2.2.5\\Scripts\\python.exe",
+  "python_implementation": "CPython",
+  "os": "Windows-10-10.0.19045-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "cpu_count": 6,
+  "flask_version": "2.2.5",
+  "flask_git_commit": "Wrong flask",
+  "werkzeug_version": "2.2.3",
+  "settings": {
+    "requests_per_run": 10000,
+    "runs": 7,
+    "request": "GET /hello",
+    "method": "Direct WSGI call, build environ once, one warmup run discarded"
+  },
+  "breakdown_us": {
+    "Werkzeug_vs_baseline_us": 37.421,
+    "flask_vs_werkzeug_us": 27.636,
+    "flask_vs_baseline_us": 65.057
+  }
+}

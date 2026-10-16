@@ -1,0 +1,6 @@
+group,file,line,function,calls_per_request,own_us_per_request,cumulative_us_per_request
+harness,flask-perf/measure_overhead.py,28,handle_request,1.0,0.694,1.515
+apps.py,flask-perf/apps.py,12,baseline_application,1.0,0.372,0.46
+stdlib/builtins,~,0,<method 'copy' of 'dict' objects>,1.0,0.241,0.241
+stdlib/builtins,~,0,<built-in method builtins.hasattr>,1.0,0.12,0.12
+harness,flask-perf/measure_overhead.py,25,start_response,1.0,0.088,0.088

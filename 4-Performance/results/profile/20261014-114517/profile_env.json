@@ -1,0 +1,28 @@
+{
+  "started_at": "2026-10-14T11:45:17",
+  "python_version": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-10-10.0.19045-SP0",
+  "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel",
+  "flask_version": "3.1.3",
+  "flask_git_commit": "22d924701a6ae2e4cd01e9a15bbaf3946094af65",
+  "werkzeug_version": "3.1.9",
+  "requests_profiled_per_app": 10000,
+  "method": "cProfile around direct WSGI calls (same harness as measure_overhead.py), one unprofiled warm-up of the same size first",
+  "profiler_overhead": {
+    "bare_wsgi": {
+      "unprofiled_us": 0.375,
+      "profiled_us": 1.515,
+      "slowdown_factor": 4.04
+    },
+    "werkzeug": {
+      "unprofiled_us": 38.705,
+      "profiled_us": 124.058,
+      "slowdown_factor": 3.21
+    },
+    "flask": {
+      "unprofiled_us": 70.809,
+      "profiled_us": 216.53,
+      "slowdown_factor": 3.06
+    }
+  }
+}

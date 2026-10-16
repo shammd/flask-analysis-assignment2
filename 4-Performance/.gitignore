@@ -1,0 +1,10 @@
+# Generated environments: rebuilt from requirements.txt and versions/*.txt
+venv/
+venvs/
+
+# Flask source, cloned during setup (see README)
+flask-src/
+
+# Python cache
+__pycache__/
+*.pyc

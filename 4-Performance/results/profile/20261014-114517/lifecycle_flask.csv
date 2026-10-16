@@ -1,0 +1,12 @@
+step,function,cumulative_us_per_request,share_of_wsgi_app
+Flask.wsgi_app (whole request inside Flask),Flask.wsgi_app,206.176,1.0
+"1  create request context (Request, URL adapter)",Flask.request_context,57.731,0.28
+2  push contexts,RequestContext.push,27.301,0.1324
+   2a URL matching,RequestContext.match_request,13.191,0.064
+   2b open session,SecureCookieSessionInterface.open_session,1.454,0.0071
+3  full_dispatch_request,Flask.full_dispatch_request,63.739,0.3092
+   3a before_request hooks,Flask.preprocess_request,6.031,0.0293
+   3b dispatch to view function,Flask.dispatch_request,14.229,0.069
+"   3c finalize (make_response, after_request, save session)",Flask.finalize_request,40.566,0.1968
+4  send response (Response as WSGI app),Response.__call__,33.478,0.1624
+5  pop contexts (teardown),RequestContext.pop,20.882,0.1013

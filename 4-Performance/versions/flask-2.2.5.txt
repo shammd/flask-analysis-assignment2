@@ -1,0 +1,10 @@
+# Exact package set for configuration: flask-2.2.5
+# Installed by compare_versions.py into venvs/flask-2.2.5/. Do not edit by hand.
+#
+click==8.5.0
+Flask==2.2.5
+itsdangerous==2.2.0
+Jinja2==3.1.6
+MarkupSafe==3.0.4
+Werkzeug==2.2.3
+colorama==0.4.6; platform_system == "Windows"  # click needs this on Windows

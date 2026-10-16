@@ -1,0 +1,94 @@
+group,file,line,function,calls_per_request,own_us_per_request,cumulative_us_per_request
+werkzeug,werkzeug/routing/map.py,252,bind_to_environ,1.0,6.724,32.082
+werkzeug,werkzeug/wrappers/request.py,125,__init__,1.0,4.687,12.81
+werkzeug,werkzeug/routing/matcher.py,69,match,1.0,4.656,8.14
+stdlib/builtins,~,0,<built-in method builtins.isinstance>,21.0,4.15,6.264
+werkzeug,werkzeug/wrappers/request.py,200,application,1.0,3.505,116.377
+stdlib/builtins,~,0,<method 'encode' of 'str' objects>,9.0,3.279,6.191
+werkzeug,werkzeug/datastructures/structures.py,22,iter_multi_items,5.0,3.198,8.011
+stdlib/builtins,~,0,<method 'get' of 'dict' objects>,16.0,3.085,3.085
+werkzeug,werkzeug/routing/map.py,492,match,1.0,2.937,12.182
+werkzeug,werkzeug/wsgi.py,249,__init__,1.0,2.883,6.661
+werkzeug,werkzeug/_internal.py,29,_wsgi_decoding_dance,5.0,2.879,5.315
+werkzeug,werkzeug/routing/matcher.py,79,_match,4.0,2.851,2.851
+werkzeug,werkzeug/wrappers/response.py,438,get_wsgi_headers,1.0,2.837,17.029
+werkzeug,werkzeug/datastructures/headers.py,388,set,2.0,2.816,6.522
+harness,flask-perf/measure_overhead.py,28,handle_request,1.0,2.787,124.058
+apps.py,flask-perf/apps.py,21,werkzeug_application,1.0,2.738,65.292
+werkzeug,werkzeug/sansio/response.py,111,__init__,1.0,2.419,9.58
+werkzeug,werkzeug/routing/map.py,183,bind,1.0,2.403,8.531
+werkzeug,werkzeug/datastructures/headers.py,618,_str_header_value,4.0,2.229,4.784
+stdlib/builtins,encodings/idna.py,179,encode,1.0,2.191,3.166
+werkzeug,werkzeug/datastructures/headers.py,229,extend,1.0,2.115,11.984
+stdlib/builtins,~,0,<method 'search' of 're.Pattern' objects>,4.0,2.056,2.056
+werkzeug,werkzeug/routing/map.py,341,_get_wsgi_string,3.0,1.82,5.327
+werkzeug,werkzeug/wrappers/response.py,144,__init__,1.0,1.711,18.29
+werkzeug,werkzeug/wrappers/response.py,520,get_app_iter,1.0,1.664,8.781
+werkzeug,werkzeug/wsgi.py,69,_get_server,2.0,1.662,2.346
+stdlib/builtins,~,0,<method 'lower' of 'str' objects>,7.0,1.586,1.586
+werkzeug,werkzeug/wsgi.py,271,__next__,2.0,1.542,2.317
+werkzeug,werkzeug/wrappers/response.py,547,get_wsgi_response,1.0,1.49,29.453
+stdlib/builtins,Lib/typing.py,1739,__getitem__,1.0,1.488,2.678
+werkzeug,werkzeug/wrappers/response.py,289,set_data,1.0,1.452,6.855
+stdlib/builtins,~,0,<method 'decode' of 'bytes' objects>,6.0,1.436,1.436
+werkzeug,werkzeug/datastructures/headers.py,495,__setitem__,2.0,1.398,8.186
+stdlib/builtins,~,0,<method 'fullmatch' of 're.Pattern' objects>,1.0,1.355,1.355
+werkzeug,werkzeug/sansio/response.py,160,_clean_status,1.0,1.333,1.774
+werkzeug,werkzeug/datastructures/headers.py,349,add,2.0,1.296,3.96
+stdlib/builtins,~,0,<built-in method builtins.len>,6.0,1.194,1.194
+stdlib/builtins,~,0,<method 'split' of 'str' objects>,4.0,1.185,1.185
+werkzeug,werkzeug/wrappers/request.py,313,close,1.0,1.173,3.509
+werkzeug,werkzeug/sansio/request.py,116,__init__,1.0,1.17,1.915
+werkzeug,werkzeug/wsgi.py,86,get_host,1.0,1.168,6.245
+stdlib/builtins,~,0,<built-in method _abc._abc_instancecheck>,3.0,1.108,1.108
+werkzeug,werkzeug/datastructures/headers.py,584,to_wsgi_list,1.0,1.069,1.995
+werkzeug,werkzeug/wrappers/response.py,566,__call__,1.0,1.055,30.644
+werkzeug,werkzeug/datastructures/headers.py,64,__init__,3.0,1.044,13.027
+stdlib/builtins,<frozen abc>,117,__instancecheck__,3.0,1.007,2.114
+werkzeug,werkzeug/sansio/utils.py,82,get_host,1.0,0.993,3.841
+werkzeug,werkzeug/datastructures/headers.py,342,__iter__,3.0,0.963,1.456
+werkzeug,werkzeug/sansio/utils.py,25,host_is_trusted,1.0,0.941,2.586
+stdlib/builtins,~,0,<method 'append' of 'list' objects>,4.0,0.914,0.914
+stdlib/builtins,~,0,<built-in method builtins.iter>,5.0,0.866,0.866
+stdlib/builtins,~,0,<built-in method builtins.any>,1.0,0.84,1.81
+werkzeug,werkzeug/datastructures/headers.py,638,__init__,1.0,0.834,1.104
+werkzeug,werkzeug/wsgi.py,274,close,1.0,0.804,1.622
+stdlib/builtins,~,0,<method 'upper' of 'str' objects>,3.0,0.782,0.782
+stdlib/builtins,Lib/typing.py,426,inner,1.0,0.735,0.735
+werkzeug,werkzeug/utils.py,163,get_content_type,1.0,0.728,0.991
+werkzeug,werkzeug/routing/map.py,302,<genexpr>,2.0,0.717,0.97
+werkzeug,werkzeug/routing/map.py,387,__init__,1.0,0.701,0.944
+stdlib/builtins,~,0,<method 'join' of 'str' objects>,1.0,0.677,0.677
+werkzeug,werkzeug/wrappers/response.py,31,_iter_encoded,2.0,0.61,0.774
+werkzeug,werkzeug/_internal.py,37,_get_environ,1.0,0.608,0.996
+werkzeug,werkzeug/sansio/response.py,156,status,1.0,0.582,2.356
+stdlib/builtins,~,0,<method 'lstrip' of 'str' objects>,2.0,0.555,0.555
+stdlib/builtins,~,0,<method 'copy' of 'dict' objects>,1.0,0.507,0.507
+stdlib/builtins,~,0,<built-in method builtins.hasattr>,2.0,0.501,0.501
+stdlib/builtins,~,0,<built-in method builtins.getattr>,2.0,0.499,0.499
+werkzeug,werkzeug/wrappers/request.py,327,__exit__,1.0,0.48,3.988
+werkzeug,werkzeug/wrappers/response.py,395,close,1.0,0.425,0.618
+werkzeug,werkzeug/wrappers/response.py,385,is_sequence,1.0,0.398,0.615
+werkzeug,werkzeug/routing/map.py,717,get_default_redirect,1.0,0.365,0.365
+stdlib/builtins,~,0,<method 'insert' of 'list' objects>,1.0,0.339,0.339
+werkzeug,werkzeug/wrappers/response.py,358,iter_encoded,1.0,0.314,0.314
+stdlib/builtins,~,0,<method 'split' of 'bytes' objects>,1.0,0.307,0.307
+stdlib/builtins,~,0,<method 'keys' of 'dict' objects>,1.0,0.304,0.304
+werkzeug,werkzeug/sansio/response.py,142,status_code,2.0,0.303,0.303
+stdlib/builtins,~,0,<method 'groups' of 're.Match' objects>,1.0,0.29,0.29
+werkzeug,werkzeug/datastructures/headers.py,346,__len__,1.0,0.279,0.456
+stdlib/builtins,~,0,<method 'partition' of 'str' objects>,1.0,0.277,0.277
+stdlib/builtins,~,0,<method 'startswith' of 'str' objects>,1.0,0.263,0.263
+stdlib/builtins,~,0,<method 'removesuffix' of 'str' objects>,1.0,0.261,0.261
+stdlib/builtins,~,0,<method 'strip' of 'str' objects>,1.0,0.253,0.253
+stdlib/builtins,~,0,<method 'items' of 'dict' objects>,1.0,0.251,0.251
+stdlib/builtins,~,0,<method 'rstrip' of 'str' objects>,1.0,0.249,0.249
+stdlib/builtins,~,0,<method 'endswith' of 'str' objects>,1.0,0.243,0.243
+stdlib/builtins,~,0,<method 'close' of 'generator' objects>,1.0,0.201,0.201
+stdlib/builtins,~,0,<built-in method builtins.callable>,1.0,0.19,0.19
+werkzeug,werkzeug/routing/map.py,361,update,1.0,0.172,0.172
+werkzeug,werkzeug/sansio/response.py,151,status,1.0,0.158,0.158
+werkzeug,werkzeug/wsgi.py,268,__iter__,1.0,0.14,0.14
+werkzeug,werkzeug/wrappers/request.py,324,__enter__,1.0,0.138,0.138
+stdlib/builtins,Lib/typing.py,2391,cast,1.0,0.135,0.135
+harness,flask-perf/measure_overhead.py,25,start_response,1.0,0.135,0.135

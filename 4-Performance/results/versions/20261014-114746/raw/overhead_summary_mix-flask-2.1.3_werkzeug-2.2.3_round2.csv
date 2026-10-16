@@ -1,0 +1,4 @@
+app,median_us,min_us,max_us,stdev_us
+bare_wsgi,0.383,0.381,0.387,0.002
+werkzeug,38.210,37.184,38.538,0.470
+flask,67.047,65.743,67.240,0.571
